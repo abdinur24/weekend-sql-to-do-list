@@ -70,5 +70,10 @@ function taskDeleted(event) {
         url: `/list/${listid}`
     }).then(response => {
         getList();
+        swal({
+            icon: 'success',
+            title: 'You go the task done...right?',
+            text: response
+          });
     }).catch(err => console.log('Error at DELETE', err))
 }
