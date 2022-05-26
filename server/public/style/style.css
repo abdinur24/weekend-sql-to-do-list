@@ -1,0 +1,68 @@
+body {
+    background: rgb(71, 21, 104);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(244, 246, 255)
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#tableList{
+    background-color: rgba(195, 26, 124, 0.267);
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#tableList td {
+    padding: 10px;
+    border: 1px solid rgb(4, 43, 82);
+}
+
+#tableList th {
+    /* padding: 0px; */
+    border: 1px solid rgb(4, 43, 82);
+    padding: 20px;
+    font-size: medium;
+}
+
+input{
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(13, 13, 45);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 25px;
+    min-width: 40px;
+    margin-top: 10px;
+}
+
+#tableSec, #addTask{
+    text-align: center;
+    /* margin: 80px; */
+}
+
+#addTask{
+    margin-top: 80px;
+}
+
+.delete{
+    background-color: red;
+}
+.completed{
+    background-color: rgb(34, 110, 34);
+}
+
+.Done{
+    background-color: green;
+}

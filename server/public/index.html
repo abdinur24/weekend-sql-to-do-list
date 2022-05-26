@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="vendor/jquery.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+    <section id="addTask">
+        <h2>Add Tasks</h2>
+        <input type="text" id="taskIn" value="" placeholder="Task">
+        <input type="text" id="completedIn" value="" placeholder="Completion">
+        <button type="button" id="addButton">Add Task</button>
+    </section>
+    <section id="tableSec">
+        <h2>Tasks</h2>
+        <table id="tableList">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Completed</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="viewList">
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>
